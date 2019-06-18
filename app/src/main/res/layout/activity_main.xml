@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.function.luo.collection.MainActivity">
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="欢迎进入超级安卓集合，这是一个神奇的宝库！"
+        android:textColor="@color/color_fc2020"
+        android:gravity="center"
+        />
+
+
+    <Button
+        android:layout_marginTop="@dimen/dp_8"
+        android:id="@+id/btn_data_base"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据库操作"
+        />
+
+    <Button
+        android:id="@+id/btn_network"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络请求"
+        />
+
+    <Button
+        android:id="@+id/btn_mvp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mvp和dagger2"
+        />
+
+    <Button
+        android:id="@+id/btn_tools"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="必备小工具"
+        />
+
+
+</LinearLayout>

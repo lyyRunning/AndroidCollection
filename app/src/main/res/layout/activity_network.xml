@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_8"
+    >
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="欢迎进入网络请求页面，将带您进入一段奇妙的旅行 ！"
+        android:textColor="@color/color_fc2020"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/dp_8"
+        android:id="@+id/bt_retrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit网络请求"
+        />
+
+
+    <Button
+        android:id="@+id/bt_volley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volley网络请求"
+        />
+
+
+
+    <Button
+        android:id="@+id/bt_okhttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okhttp网络请求"
+        />
+
+
+    <Button
+        android:id="@+id/bt_rxjava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxJava 操作"
+        />
+</LinearLayout>
